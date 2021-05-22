@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>e Pass | India </title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div style="width: 20%;">
+                <img src="/static/logo.jpg" style="height: 100%;padding: 0;float: left;">
+            </div>
+            <div style="width: 90%;text-align: center;padding-top: 1%;">
+                <h1>  COVID-19 e-PASS Registration</h1>
+            </div>
+
+        </div>
+        <marquee width="100%" direction="left" height="5%" style="background-color: rgb(169, 194, 216);">
+            With the second wave of Covid-19 already pushing major state governments to prepare a fresh blueprint to fight
+            the pandemic spread, state governments including Maharashtra, Rajasthan, Punjab, Jharkhand, Uttar Pradesh and Tamil Nadu
+            among others have even imposed night lockdown in respective states.
+            So the central government has decided to give epass for the people who wants to travel from one place to another.
+            Please make sure your application status is CONFIRMED.
+        </marquee>
+        <div class="float-container" >
+            <div class="apform">
+
+                <form action="/login_page" method="post">
+                    <h1> COVID-19 ePass Application form</h1>
+                    <hr style="height: 1px;background-color:black;">
+                    <label>First Name </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname" placeholder="first name" required><br>
+                    <label>Last Name </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" placeholder="last name" required><br>
+                    <label>Email Id </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="email" placeholder="email id" required><br>
+                    <label>Aadhar Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="idcard" placeholder="aadhar number" required><br>
+                    <label>State Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="source_state" placeholder="state name" required><br>
+                    <label>Source Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="source" placeholder="source name" required><br>
+                    <label>State Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="dest_state" placeholder="destination name" required><br>
+                    <label>Destination Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="destination" placeholder="destination name" required><br>
+                    <label>Mobile Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="phoneNumber" placeholder="mobile number" required><br>
+                    <label>Travel Date</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="trip" placeholder="travel date" required><br>
+                    <input type="submit" value="apply"><br>
+                  </form>
+            </div>
+            <div class="bottomright">
+                <img src="/static/stayhome.jpg" width="350" height="250">
+            </div>
+
+
+
+          </div>
+    </body>
+</html>
