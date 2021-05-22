@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(50, 154, 214);
+
+}
+.header
+{
+    height: 15%;
+    background-color: rgb(244, 254, 255);
+
+}
+.float-container {
+    width: 100%;
+    height: 84%;
+    background-image: url('/static/lockdown.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5px;
+
+}
+.apform{
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+    margin-top: 0%;
+    background-color: rgb(110, 183, 247, .3);
+
+}
+input[type=text],input[type=number],input[type=date], select {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #22c228;
+    color: white;
+    padding: 9px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2b9230;
+}
+label{
+    font-weight: bold;
+}
+.bottomright {
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+
+
+}
+.page1{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 0%;
+    margin-top: 0%;
+    background-color: black;
+}
+.page2{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5px;
+    margin-top: 0%;
+    background-color: white;
+}
